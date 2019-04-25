@@ -1,11 +1,11 @@
-# @webng/ht-test-lib
+# @webnanogy/ht-test-lib
 
 ## Installation
 
 To install this library, run:
 
 ```bash
-$ npm install @webng/ht-test-lib --save
+$ npm install @webnanogy/ht-test-lib --save
 ```
 
 ## Consuming your library
@@ -13,7 +13,7 @@ $ npm install @webng/ht-test-lib --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install @webng/ht-test-lib
+$ npm install @webnanogy/ht-test-lib
 ```
 
 and then from your Angular `AppModule`:
@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from '@webng/ht-test-lib';
+import { SampleModule } from '@webnanogy/ht-test-lib';
 
 @NgModule({
   declarations: [
